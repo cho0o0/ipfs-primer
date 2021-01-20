@@ -74,13 +74,13 @@ added Qmait5a9gaeFcxV4da7F4kny2NsdCfH1Gjs7YrthizZk23 test-page/index.html
 added QmZpEhNpd7MCrFrMLKHnvwXSxcjMDYwcGJgkfjg9Z7yy42 test-page
 ```
 
-先ほどとコンテンツの内容が変わったため、ハッシュ値も先ほどのものから変化しています。IPNSでは下記のように`ipfs name publis`コマンドにより更新後のハッシュ値を再度、ノードIDに紐付けなおすことで、更新後のコンテンツも依然と同じアドレスでアクセスできる様にします。
+先ほどとコンテンツの内容が変わったため、ハッシュ値も先ほどのものから変化しています。IPNSでは下記のように`ipfs name publish`コマンドにより更新後のハッシュ値を再度、ノードIDに紐付けなおすことで、更新後のコンテンツも依然と同じアドレスでアクセスできる様にします。
 ```
 $ ipfs name publish QmZpEhNpd7MCrFrMLKHnvwXSxcjMDYwcGJgkfjg9Z7yy42
 Published to QmZdddUUtujd1jqcVd8SLnjbbR9CGQwPUX55AGpWJLjCij: /ipfs/QmZpEhNpd7MCrFrMLKHnvwXSxcjMDYwcGJgkfjg9Z7yy42
 ```
 
-では、先ほどと同様にgatewayを通じて先ほどと同一の下記のURLからアクセスしてみましょう
+では、先ほどと同様にgatewayを通じて先ほどと同一の下記のURLからアクセスしてみましょう。
 ```
 https://ipfs-gateway.decentralized-web.jp/ipns/QmZdddUUtujd1jqcVd8SLnjbbR9CGQwPUX55AGpWJLjCij/
 ```
